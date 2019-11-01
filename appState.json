@@ -81,12 +81,12 @@
       "030bcecb-64a6-406e-aaee-5ce49080b479": {
         "id": "030bcecb-64a6-406e-aaee-5ce49080b479",
         "parent": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
-        "name": "jsFile.js",
+        "name": "jsFile1.js",
         "type": "JS_FILE",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "SigngleUserGit1/jsFile.js",
+        "filePath": "SigngleUserGit1/jsFile1.js",
         "code": "// js file"
       }
     },
@@ -175,7 +175,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572597129215
+    "lastSave": 1572597179868
   },
   "VCS_STATE": {
     "provider": "GitHub",
