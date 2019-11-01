@@ -42,15 +42,13 @@
         "children": [],
         "isRemovable": true,
         "filePath": "SigngleUserGit1/nerJSFunFile.js",
-        "code": "exports.handler = function(event, context, callback) {\n //add net VPC\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n //add net VPC ll\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
           "timeout": 100,
           "memory": 256,
-          "layers": [
-            "arn:aws:lambda:us-east-2:123456789012:layer:my-layer:3"
-          ],
+          "layers": [],
           "throttleLimit": 392,
           "xRayEnabled": true,
           "dqlARN": "arn:aws:sqs:us-east-1:318300609668:KTestSQS",
@@ -97,7 +95,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572587868832
+    "lastSave": 1572587999974
   },
   "VCS_STATE": {
     "provider": "GitHub",
