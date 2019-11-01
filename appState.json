@@ -9,7 +9,9 @@
         "isDirectory": true,
         "children": [
           "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
-          "45394fe5-6d81-44b8-8fe7-ad4885b302b7"
+          "45394fe5-6d81-44b8-8fe7-ad4885b302b7",
+          "1acfdf5f-b534-4337-a075-886854b35d4c",
+          "458f57da-5f0f-45aa-9086-7c021234565e"
         ],
         "isRemovable": false,
         "filePath": "SigngleUserGit1"
@@ -76,14 +78,45 @@
           "Version": "2012-10-17",
           "Statement": []
         }
+      },
+      "1acfdf5f-b534-4337-a075-886854b35d4c": {
+        "id": "1acfdf5f-b534-4337-a075-886854b35d4c",
+        "parent": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
+        "name": "pythnFuncFile.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigngleUserGit1/pythnFuncFile.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 138,
+          "memory": 320,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "458f57da-5f0f-45aa-9086-7c021234565e": {
+        "id": "458f57da-5f0f-45aa-9086-7c021234565e",
+        "parent": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigngleUserGit1/__init__.py",
+        "code": ""
       }
     },
     "rootNode": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
     "openFiles": [
       "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
-      "45394fe5-6d81-44b8-8fe7-ad4885b302b7"
+      "45394fe5-6d81-44b8-8fe7-ad4885b302b7",
+      "1acfdf5f-b534-4337-a075-886854b35d4c"
     ],
-    "currentFileId": "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
+    "currentFileId": "1acfdf5f-b534-4337-a075-886854b35d4c",
     "resources": {
       "s3as2TestLahiru": {
         "name": "s3as2TestLahiru",
@@ -136,6 +169,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "1acfdf5f-b534-4337-a075-886854b35d4c",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/SigngleUserGit1",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -162,7 +203,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572597422945
+    "lastSave": 1572597551854
   },
   "VCS_STATE": {
     "provider": "GitHub",
