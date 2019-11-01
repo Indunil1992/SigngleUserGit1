@@ -1,4 +1,4 @@
 exports.handler = function(event, context, callback) {
- //add net VPC ll
+ //add lyr
     callback(null, {"message": "Successfully executed"});
 }
