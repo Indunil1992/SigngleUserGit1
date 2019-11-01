@@ -9,7 +9,8 @@
         "isDirectory": true,
         "children": [
           "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
-          "45394fe5-6d81-44b8-8fe7-ad4885b302b7"
+          "45394fe5-6d81-44b8-8fe7-ad4885b302b7",
+          "030bcecb-64a6-406e-aaee-5ce49080b479"
         ],
         "isRemovable": false,
         "filePath": "SigngleUserGit1"
@@ -64,22 +65,38 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1sachithraAPInamehiruidneeany",
-            "config": {}
+            "resourceName": "s3as2TestLahiru",
+            "config": {
+              "type": "s3:ObjectCreated:Put",
+              "keyPrefix": "",
+              "keySuffix": ""
+            }
           }
         ],
         "customSecurityPolicy": {
           "Version": "2012-10-17",
           "Statement": []
         }
+      },
+      "030bcecb-64a6-406e-aaee-5ce49080b479": {
+        "id": "030bcecb-64a6-406e-aaee-5ce49080b479",
+        "parent": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
+        "name": "jsFile.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigngleUserGit1/jsFile.js",
+        "code": "// js file"
       }
     },
     "rootNode": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
     "openFiles": [
       "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
-      "45394fe5-6d81-44b8-8fe7-ad4885b302b7"
+      "45394fe5-6d81-44b8-8fe7-ad4885b302b7",
+      "030bcecb-64a6-406e-aaee-5ce49080b479"
     ],
-    "currentFileId": "45394fe5-6d81-44b8-8fe7-ad4885b302b7",
+    "currentFileId": "030bcecb-64a6-406e-aaee-5ce49080b479",
     "resources": {
       "s3as2TestLahiru": {
         "name": "s3as2TestLahiru",
@@ -158,7 +175,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572596944099
+    "lastSave": 1572597129215
   },
   "VCS_STATE": {
     "provider": "GitHub",
