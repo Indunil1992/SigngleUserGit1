@@ -1,6 +1,8 @@
 {
   "name": "SigngleUserGit1",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "inherits": "2.0.4"
+  },
   "devDependencies": {}
 }
