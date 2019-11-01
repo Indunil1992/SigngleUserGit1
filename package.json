@@ -4,5 +4,7 @@
   "dependencies": {
     "inherits": "2.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "aws-sdk": "2.176.0"
+  }
 }
