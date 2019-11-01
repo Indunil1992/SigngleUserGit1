@@ -1,4 +1,4 @@
 exports.handler = function(event, context, callback) {
-    // new js
+    // new js concurrency 
     callback(null, {"message": "Successfully executed"});
 }
