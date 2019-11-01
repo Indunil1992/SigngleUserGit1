@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92": {
+        "id": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
+        "parent": null,
+        "name": "SigngleUserGit1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
+          "45394fe5-6d81-44b8-8fe7-ad4885b302b7"
+        ],
+        "isRemovable": false,
+        "filePath": "SigngleUserGit1"
+      },
+      "9ee211a9-872a-42a1-a69c-7a98efd6b57e": {
+        "id": "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
+        "parent": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigngleUserGit1/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "45394fe5-6d81-44b8-8fe7-ad4885b302b7": {
+        "id": "45394fe5-6d81-44b8-8fe7-ad4885b302b7",
+        "parent": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
+        "name": "nerJSFunFile.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigngleUserGit1/nerJSFunFile.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 100,
+          "memory": 256,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
+    "openFiles": [
+      "9ee211a9-872a-42a1-a69c-7a98efd6b57e",
+      "45394fe5-6d81-44b8-8fe7-ad4885b302b7"
+    ],
+    "currentFileId": "45394fe5-6d81-44b8-8fe7-ad4885b302b7",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SigngleUserGit1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1572586407297
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SigngleUserGit1",
+      "url": "https://github.com/Indunil1992/SigngleUserGit1"
+    }
+  }
+}
