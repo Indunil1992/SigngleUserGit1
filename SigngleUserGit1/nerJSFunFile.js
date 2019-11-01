@@ -1,4 +1,4 @@
 exports.handler = function(event, context, callback) {
- //add V for Error hndling
+ //add net VPC
     callback(null, {"message": "Successfully executed"});
 }
