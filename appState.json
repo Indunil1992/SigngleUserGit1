@@ -62,7 +62,24 @@
             "sg-00c0e38b3ca019399"
           ]
         },
-        "triggers": []
+        "triggers": [],
+        "customSecurityPolicy": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Resource": "*",
+              "Action": [
+                "*"
+              ]
+            },
+            {
+              "Effect": "Allow",
+              "Resource": "arn:aws:appsync:us-east-1::/",
+              "Action": []
+            }
+          ]
+        }
       }
     },
     "rootNode": "5e39ea12-69d4-43b9-82bd-b9c6b1e89c92",
@@ -97,7 +114,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572588116626
+    "lastSave": 1572591069389
   },
   "VCS_STATE": {
     "provider": "GitHub",
