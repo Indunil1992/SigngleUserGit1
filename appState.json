@@ -42,7 +42,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "SigngleUserGit1/nerJSFunFile.js",
-        "code": "exports.handler = function(event, context, callback) {\n //add lyr\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n ///////////////////////////////////////\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
@@ -65,20 +65,7 @@
         "triggers": [],
         "customSecurityPolicy": {
           "Version": "2012-10-17",
-          "Statement": [
-            {
-              "Effect": "Allow",
-              "Resource": "*",
-              "Action": [
-                "*"
-              ]
-            },
-            {
-              "Effect": "Allow",
-              "Resource": "arn:aws:appsync:us-east-1::/",
-              "Action": []
-            }
-          ]
+          "Statement": []
         }
       }
     },
@@ -114,7 +101,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572591069389
+    "lastSave": 1572591324640
   },
   "VCS_STATE": {
     "provider": "GitHub",
